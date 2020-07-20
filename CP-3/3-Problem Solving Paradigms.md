@@ -245,4 +245,11 @@
 
 - ## Dynamic Programming
 
-- 
+  - key skills needed to master
+    - determine the problem *states*
+    - determine the relationship or *transitions* between current problems and their subproblems.
+  - often used to solve *optimization* problems and *counting* problems.
+
+- **DP Illustration**
+
+  -  
