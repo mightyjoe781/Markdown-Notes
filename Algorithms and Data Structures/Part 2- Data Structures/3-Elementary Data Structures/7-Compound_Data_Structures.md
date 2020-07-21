@@ -23,7 +23,7 @@
 
   When processing string we normally use pointers because they are easy to manipulate
 
-  <img src="D:\Notes\Algorithms and Data Structures\Part 2- Data Structures\3-Elementary Data Structures\7-Compound Data Structures.assets\image-20200709074033915.png" alt="image-20200709074033915" style="zoom: 80%;" />
+  <img src="7-Compound_Data_Structures.assets/image-20200709074033915.png" alt="image-20200709074033915" style="zoom: 80%;" />
 
   ````c++
   #include <iostream.h>
