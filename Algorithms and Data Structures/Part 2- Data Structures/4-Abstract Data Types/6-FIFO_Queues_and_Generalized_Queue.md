@@ -22,7 +22,7 @@
 
 - ***Linked-list queue***
 
-  <img src="D:\Notes\Algorithms and Data Structures\Part 2- Data Structures\4-Abstract Data Types\6-FIFO Queues and Generalized Queue.assets\image-20200720091107943.png" alt="image-20200720091107943" style="zoom:67%;" />
+  <img src="6-FIFO_Queues_and_Generalized_Queue.assets/image-20200720091107943.png" alt="image-20200720091107943" style="zoom:67%;" />
 
   - insert new items at the end
   - to get the item we remove the item from front of the queue

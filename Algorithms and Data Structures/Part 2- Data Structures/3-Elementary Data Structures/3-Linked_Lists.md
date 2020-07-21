@@ -71,7 +71,7 @@ typedef node *link;
 
 - #### Linked List Removal
 
-  - <img src="D:\Notes\Algorithms and Data Structures\Part 2- Data Structures\3-Elementary Data Structures\3-Linked Lists.assets\image-20200708002956192.png" alt="image-20200708002956192" style="zoom: 67%;" />
+  - <img src="3-Linked_Lists.assets/image-20200708002956192.png" alt="image-20200708002956192" style="zoom: 67%;" />
 
     ` t = x->next ; x->next = t->next;`
 
@@ -87,7 +87,7 @@ typedef node *link;
 
 - #### Linked List Insertion
 
-  - <img src="D:\Notes\Algorithms and Data Structures\Part 2- Data Structures\3-Elementary Data Structures\3-Linked Lists.assets\image-20200708003612363.png" alt="image-20200708003612363" style="zoom:67%;" />
+  - <img src="3-Linked_Lists.assets/image-20200708003612363.png" alt="image-20200708003612363" style="zoom:67%;" />
 
     `t->next = x->next; x->next =t;`
 
@@ -125,6 +125,6 @@ int main(int argc,char *argv[]){
 }
 ````
 
-<img src="D:\Notes\Algorithms and Data Structures\Part 2- Data Structures\3-Elementary Data Structures\3-Linked Lists.assets\image-20200708004343881.png" alt="image-20200708004343881" style="zoom:67%;" />
+<img src="3-Linked_Lists.assets/image-20200708004343881.png" alt="image-20200708004343881" style="zoom:67%;" />
 
 Above image is linked list for N=9 and M=5

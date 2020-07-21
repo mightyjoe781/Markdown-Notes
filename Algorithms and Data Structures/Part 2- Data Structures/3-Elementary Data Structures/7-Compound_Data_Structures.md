@@ -55,7 +55,7 @@
 
   Its just a simple Undirected graph represented using matrix
 
-  <img src="D:\Notes\Algorithms and Data Structures\Part 2- Data Structures\3-Elementary Data Structures\7-Compound Data Structures.assets\image-20200709075755185.png" alt="image-20200709075755185" style="zoom:80%;" />
+  <img src="7-Compound_Data_Structures.assets/image-20200709075755185.png" alt="image-20200709075755185" style="zoom:80%;" />
 
   ````c++
   #include <iostream.h>
@@ -76,7 +76,7 @@
 
 - **Adjacency-lists representation of a graph**
 
-  <img src="D:\Notes\Algorithms and Data Structures\Part 2- Data Structures\3-Elementary Data Structures\7-Compound Data Structures.assets\image-20200709075829259.png" alt="image-20200709075829259" style="zoom:80%;" />
+  <img src="7-Compound_Data_Structures.assets/image-20200709075829259.png" alt="image-20200709075829259" style="zoom:80%;" />
 
   ````c++
   #include <iostream.h>
