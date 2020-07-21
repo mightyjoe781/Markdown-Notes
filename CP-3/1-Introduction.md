@@ -38,7 +38,7 @@ Competitive Programming is all about "*Given well-known Computer Science (CS) pr
 
 - \# of Test Cases Based i/o
 
-  <img src="D:\Notes\CP-3\1-Introduction.assets\image-20200705091233940.png" alt="image-20200705091233940" style="zoom: 67%;" />
+  <img src="1-Introduction.assets\image-20200705091233940.png" alt="image-20200705091233940" style="zoom: 67%;" />
 
   ````c++
   int TC,a,b;
@@ -53,7 +53,7 @@ Competitive Programming is all about "*Given well-known Computer Science (CS) pr
 
 - Variable # of i/o
 
-  <img src="D:\Notes\CP-3\1-Introduction.assets\image-20200705091625628.png" alt="image-20200705091625628" style="zoom:67%;" />
+  <img src="1-Introduction.assets\image-20200705091625628.png" alt="image-20200705091625628" style="zoom:67%;" />
 
   ````c
   int k, ans v;
