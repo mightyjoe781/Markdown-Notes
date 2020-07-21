@@ -186,7 +186,7 @@
 
 - **Station Balance(Load Balancing)- UVa 410**
 
-  - ![image-20200715192003779](3-Problem_Solving_Paradigms.assets\image-20200715192003779.png)
+  - ![image-20200715192003779](3-Problem_Solving_Paradigms.assets/image-20200715192003779.png)
 
   - ![image-20200715192110461](3-Problem_Solving_Paradigms.assets/image-20200715192110461.png)
 
@@ -198,7 +198,7 @@
 
     ![image-20200715192451547](D:\Notes\CP-3\3-Problem Solving Paradigms.assets\image-20200715192451547.png)
 
-    ![image-20200715192519537](3-Problem_Solving_Paradigms.assets\image-20200715192519537.png)
+    ![image-20200715192519537](3-Problem_Solving_Paradigms.assets/image-20200715192519537.png)
 
 - **Watering Grass- UVa 10382**-(**Interval Covering**)
 
