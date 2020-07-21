@@ -198,14 +198,14 @@
 
     ![image-20200715192451547](D:\Notes\CP-3\3-Problem Solving Paradigms.assets\image-20200715192451547.png)
 
-    ![image-20200715192519537](.\3-Problem Solving Paradigms.assets\image-20200715192519537.png)
+    ![image-20200715192519537](3-Problem Solving Paradigms.assets\image-20200715192519537.png)
 
 - **Watering Grass- UVa 10382**-(**Interval Covering**)
 
-  - ![image-20200715194643987](D:\Notes\CP-3\3-Problem Solving Paradigms.assets\image-20200715194643987.png)
+  - ![image-20200715194643987](3-Problem Solving Paradigms.assets\image-20200715194643987.png)
   - Using brute force and calculating all possible combination is useless.
   - This is a classic Interval Covering problem (*a variant of greedy*) with little twist in geometry that subintervals are circle now. But we can calculate dx = sqrt(R^2^ - (W/2)^2^). Interval spanned is [x-dx..x+dx] with x as center.
-  - ![image-20200715194704634](.\3-Problem Solving Paradigms.assets\image-20200715194704634.png)
+  - ![image-20200715194704634](3-Problem Solving Paradigms.assets/image-20200715194704634.png)
   - The Greedy sorts the interval by *increasing* left endpoint and by *decreasing* right endpoint in case if ties arise. It takes the interval that covers 'as far as right as possible' and yet still produces uninterrupted coverage from the leftmost side to the rightmost side of the horizontal strip of the grass. It ignores intervals that are already covered by the (previous) intervals.
 
 - **UVa - 11292 Dragon of Loowater (Sort the input first)** 
