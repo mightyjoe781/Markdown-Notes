@@ -38,3 +38,47 @@ int F(int i)
 - A thief robbing a safe finds it filled with N types of item of varying size and value, but has only a small knapsack of capacity M to use to carry the goods.
 
   The knapsack problem is to find the combination of item which the thief should choose for the knapsack in order to maximize the total value of all the stolen items.
+  
+- In recursive solution  to the knapsack problem, each time we choose an item and assume the we have already find the optimal way to solve. For the knapsack of size `cap`, we determine, for each item `i` among the available item types, what total value we could carry by placing `i` in the knapsack.
+
+- But this is not a feasible solution as it runs in exponential time.
+
+- We can apply top-down DP to eliminate all recomputation.
+
+  ***Recursive Implementation***
+
+  This code will run forever. Don't use it.
+
+````c++
+typedef struct { int size; int val;} Item;
+int knap(int cap)
+{	int i, space,max,t;
+	for(i =0, max=0;i<N; i++){
+        if((space = cap-item[i].size)>=0)
+            if((t=knap(space)+items[i].val)> max)
+                max=t;
+        return max;
+    }
+}
+````
+
+***DP Implementation***
+
+````c++
+int knap(int M)
+{
+    int i, space,max, maxi=0,t;
+    if(maxKnown[M] != unknown) return maxKnown[M];
+	for(i =0, max=0;i<N; i++){
+        if((space = cap-item[i].size)>=0)
+            if((t=knap(space)+items[i].val)> max)
+            {max=t; maxi=i;}
+        
+    maxKnown[M] = max; itemKnown[M] = items[maxi];
+        return max;
+    }
+}
+````
+
+
+

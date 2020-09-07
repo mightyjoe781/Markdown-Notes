@@ -79,7 +79,7 @@ typedef node *link;
 
     ` x->next = x->next->next;` <you can never access deleted node again>
 
-  - Here we set t to the node to be removed. *Later we should ideally remove t as its link still points to list and we don't need it*.
+  - Here we set `t` to the node to be removed. *Later we should ideally remove t as its link still points to list and we don't need it*.
 
     - *Java already has a Garbage Collector which reclaims references set to null but CPP requires us to delete it manually.*
 
