@@ -249,6 +249,11 @@
     - determine the problem *states*
     - determine the relationship or *transitions* between current problems and their subproblems.
   - often used to solve *optimization* problems and *counting* problems.
+  - **Steps for Solving DP Problems**
+    1. *Define Subproblems*
+    2.  *Write down the recurrence that relates subproblems*
+    3. *Recognize and solve the base cases*
+  - All steps above are important
 
 - **DP Illustration**
 
