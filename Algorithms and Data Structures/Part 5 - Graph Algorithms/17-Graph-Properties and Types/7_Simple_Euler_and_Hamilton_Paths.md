@@ -15,7 +15,7 @@ template <class Graph> class sPATH
         typename Graph::adjIterator A(G,v);
         for(int t = A.beg(); !A.end(); A.nxt())
             if(!visited[t])
-                if(searcR(t,w)) return true;
+                if(searchR(t,w)) return true;
         return false;
     }
     public:

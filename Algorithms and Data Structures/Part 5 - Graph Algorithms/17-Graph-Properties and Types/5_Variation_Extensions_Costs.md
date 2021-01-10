@@ -26,7 +26,7 @@ template <class Graph> class DEGREE
         }
     int operator[](int v) const
     { return degree[v]; }
-}
+};
 ````
 
 ![image-20210106201409694](5_Variation_Extensions_Costs.assets/image-20210106201409694.png)
