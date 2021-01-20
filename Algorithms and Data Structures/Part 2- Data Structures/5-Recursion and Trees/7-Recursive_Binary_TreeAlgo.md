@@ -33,7 +33,7 @@ void show(link t,int h){
 
 Its binary tree where the item in every internal node is a copy of the larger of the items in its two children. and in particular item at the root is biggest of all of them.
 
-![image-20200921085216123](7-Recursive_Binary_TreeAlgo.assets\image-20200921085216123.png)
+![image-20200921085216123](7-Recursive_Binary_TreeAlgo.assets/image-20200921085216123.png)
 
 **Construction of tournament**
 
@@ -62,7 +62,7 @@ link max(Item a[],int l,int r){
 
 Tree constructed for expression i.e. prefix `*+a**bc+def`
 
-<img src="7-Recursive_Binary_TreeAlgo.assets\image-20200921085703532.png" alt="image-20200921085703532"  />
+<img src="7-Recursive_Binary_TreeAlgo.assets/image-20200921085703532.png" alt="image-20200921085703532"  />
 
 **Construction of a parse tree**
 

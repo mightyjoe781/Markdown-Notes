@@ -4,7 +4,7 @@ Simplest model for studying nonadaptive sorting algorithms is an abstract machin
 
 We draw network for N items as a sequence of N horizontal lines, with comparator connecting pairs of lines. We imagine keys to be sorted pass from right to left through the network, with a pair of numbers exchanged if necessary to put the smaller on top whenever a comparator is encountered.
 
-![image-20201207081528684](2-Sorting_Networks.assets\image-20201207081528684.png)
+![image-20201207081528684](2-Sorting_Networks.assets/image-20201207081528684.png)
 
 This network can sort any permutation of four keys.
 
@@ -16,7 +16,7 @@ Given any network, it is not difficult to classify the comparators into a sequen
 
 Batcher Odd-Even Merging Network is one example. We can arrange it so that there is no interference.
 
-![image-20201207082609304](2-Sorting_Networks.assets\image-20201207082609304.png)
+![image-20201207082609304](2-Sorting_Networks.assets/image-20201207082609304.png)
 
 **Batcher's odd-even merge (non-recursive)**
 

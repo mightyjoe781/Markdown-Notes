@@ -24,13 +24,13 @@ There can be three order in which we can traverse a node :
 
 
 
-![image-20200904184546387](6-Tree_Traversal.assets\image-20200904184546387.png)
+![image-20200904184546387](6-Tree_Traversal.assets/image-20200904184546387.png)
 
 Three traversals depicted in order
 
 **Preorder Stack Call(leftmost)**
 
-![image-20200904184627960](6-Tree_Traversal.assets\image-20200904184627960.png)
+![image-20200904184627960](6-Tree_Traversal.assets/image-20200904184627960.png)
 
 Doing inorder traversal is same as solving Towers of Hanoi.
 
@@ -56,7 +56,7 @@ void traverse(link h, void visit(link)){
 
 *Picture of stack at different times*
 
-<img src="6-Tree_Traversal.assets\image-20200904185344751.png" alt="image-20200904185344751" style="zoom:67%;" />
+<img src="6-Tree_Traversal.assets/image-20200904185344751.png" alt="image-20200904185344751" style="zoom:67%;" />
 
 #### Level order Traversal
 
@@ -64,7 +64,7 @@ void traverse(link h, void visit(link)){
 
 This strategy is based on reading top to down and left to right.
 
-<img src="6-Tree_Traversal.assets\image-20200904194326643.png" alt="image-20200904194326643" style="zoom:67%;" />
+<img src="6-Tree_Traversal.assets/image-20200904194326643.png" alt="image-20200904194326643" style="zoom:67%;" />
 
 Remarkably, we can achieve it just by changing one word in the last program.
 

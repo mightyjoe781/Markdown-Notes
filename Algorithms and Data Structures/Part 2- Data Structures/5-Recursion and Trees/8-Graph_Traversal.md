@@ -9,17 +9,13 @@ Starting at any node `v` , we
 
 if graph is connected we will eventually reach all node
 
-````c++
-
-````
-
 Stack calls in dfs for a adjacency list representation for graph.
 
-![image-20200921091408139](8-Graph_Traversal.assets\image-20200921091408139.png)
+![image-20200921091408139](8-Graph_Traversal.assets/image-20200921091408139.png)
 
 **DFS vs BFS**
 
-![image-20200921091545250](8-Graph_Traversal.assets\image-20200921091545250.png)
+![image-20200921091545250](8-Graph_Traversal.assets/image-20200921091545250.png)
 
 Note: *The difference between dfs and general tree traversal is that we need to guard explicitly against visiting nodes that we have already visited.*
 
@@ -51,7 +47,7 @@ Each line indicates the result of popping the stack for node that have not been 
 
 Alternatively, we can think of the process as simply pushing all nodes adjacent to any unvisited node onto the stack(right)
 
-![image-20200921093024636](8-Graph_Traversal.assets\image-20200921093024636.png)
+![image-20200921093024636](8-Graph_Traversal.assets/image-20200921093024636.png)
 
 Right side depicts the stack containing link to node only. We visit head then push all the adjacent elements onto the stack.
 
