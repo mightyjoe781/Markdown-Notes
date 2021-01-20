@@ -19,7 +19,7 @@
   - Floating-point Numbers (**float**S)
   - Characters (**char**S)
 
-- We can trader space for accuracy and **use int , long int, short int** for integers and from **float, double** for floating-point numbers.
+- We can trade space for accuracy and **use int , long int, short int** for integers and from **float, double** for floating-point numbers.
 
 - Ops are associated with types not other way around. Keep track of whether operand and result are of correct type. In some situation C++ performs *implicit type conversion* in other cases we perform casts.
 
