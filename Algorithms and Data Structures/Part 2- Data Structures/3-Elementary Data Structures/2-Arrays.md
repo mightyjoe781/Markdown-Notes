@@ -10,6 +10,7 @@
 
   ````c++
   #include <iostream>
+  using namespace std;
   static const int N = 1000;
   int main(){
       int i, a[N];
@@ -47,7 +48,7 @@
 
   ## Some Codes
 
-  ### Coin Flipping Simulation O(n^2)[can be improved to linear]
+  ### Coin Flipping Simulation$ O(n^2)$[can be improved to linear]
 
   If we flip a coin N times, we expect to get N/2 heads, but could get anywhere from 0 to N heads. This program runs the experiment M times, taking both N and M from the command line. It uses an array f to keep track of the frequency of occurrence of the outcome "i heads" for 0<= i <= N, then prints out a histogram of the result of the experiments, with one asterisk for each 10 occurrences.
   The operation on which this program is based—indexing an array with a computed value—is critical to the efficiency of many computational procedures.
@@ -78,7 +79,7 @@
   ### Closest-Point computation
 
   This program illustrates the use of an array of structures, and is representative of the typical situation where we save items in an array to process them later, during some computation.
-  It counts the number of pairs of N randomly generated points in the unit square that can be connected by a straight line of length less than d, The running time is O(N2), so this program cannot be used for huge N. Same with this as it can also be improved.
+  It counts the number of pairs of N randomly generated points in the unit square that can be connected by a straight line of length less than d, The running time is $O(N^2)$, so this program cannot be used for huge N. Same with this as it can also be improved.
 
   ````c++
   #include <iostream.h>
