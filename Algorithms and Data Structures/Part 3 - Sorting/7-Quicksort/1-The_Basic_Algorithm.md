@@ -13,7 +13,7 @@ The crux of method is partitioning process, which rearranged the array to make t
 ````c++
 template <class Item>
     void quicksort(Item a[] , int l, int r){
-    if(r<= 1) reutrn ;
+    if(r<= l) return ;
     int i = partition(a,l,r);
     quicksort(a,l,i-1);
     quicksort(a,i+1,r);
