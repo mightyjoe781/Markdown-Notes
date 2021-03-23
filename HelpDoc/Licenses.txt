@@ -1,0 +1,9 @@
+#------------- Free-software-license ---------------
+
+- **Public Domain** : Grants all rights , {PD,CC0}
+- **Permissive license** Grants use right, allows right to relicense {MIT , Apache, MPL}
+- **Copyleft License** Grants use rights, forbids proprietization {GPL,AGPL}
+- **Non Commercial license**
+- **Proprietary License**
+- **Trade Secret**
+
